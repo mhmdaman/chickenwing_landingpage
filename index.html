@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chickenwing — Premium Packet Sniffer for macOS</title>
-    <meta name="description" content="A professional, monochrome HUD packet analyzer for macOS. Intercept, analyze, and secure your network.">
+    <meta name="description"
+        content="A professional, monochrome HUD packet analyzer for macOS. Intercept, analyze, and secure your network.">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="icon.png">
 </head>
+
 <body>
     <div class="grid-overlay"></div>
     <div class="scanline"></div>
@@ -28,10 +31,10 @@
         <section class="hero">
             <h1 class="animate">Packet Sniffing,<br>Redefined.</h1>
             <p class="tagline animate delay-1">High-performance network analysis in a brutalist monochrome HUD.</p>
-            
+
             <div class="cta-group animate delay-2">
-                <!-- Pointing to file in same folder for local & hosting compatibility -->
-                <a href="Chickenwing-1.0.0-arm64.dmg" class="btn btn-primary" id="download-btn" download>Download for macOS (.dmg)</a>
+                <a href="https://github.com/mhmdaman/chickenwing_landingpage/releases/download/v1.0.0/Chickenwing-1.0.0-arm64.dmg"
+                    class="btn btn-primary" id="download-btn" target="_blank">Download for macOS (.dmg)</a>
                 <a href="#install" class="btn btn-secondary">Installation Guide</a>
             </div>
 
@@ -45,7 +48,8 @@
         <section id="features" class="features">
             <div class="feature-card">
                 <h3>Real-time Capture</h3>
-                <p>Monitor incoming and outgoing traffic with microsecond precision. Filter by protocol, IP, or port in real-time.</p>
+                <p>Monitor incoming and outgoing traffic with microsecond precision. Filter by protocol, IP, or port in
+                    real-time.</p>
             </div>
             <div class="feature-card">
                 <h3>Monochrome HUD</h3>
@@ -53,18 +57,24 @@
             </div>
             <div class="feature-card">
                 <h3>Threat Detection</h3>
-                <p>Identify sensitive data leaks and suspicious patterns automatically with built-in heuristic analysis.</p>
+                <p>Identify sensitive data leaks and suspicious patterns automatically with built-in heuristic analysis.
+                </p>
             </div>
         </section>
 
         <section id="install" style="padding: 100px 0; border-top: 1px solid var(--line);">
             <h2 style="font-family: var(--font-mono); text-transform: uppercase; margin-bottom: 2rem;">How to Run</h2>
-            <div style="background: var(--glass); border: 1px solid var(--glass-border); padding: 2rem; border-radius: 12px; font-family: var(--font-mono); font-size: 0.9rem; line-height: 1.8;">
-                <p style="margin-bottom: 1rem; color: #fff;">Because Chickenwing is a powerful security tool, macOS requires a few steps to run it safely:</p>
+            <div
+                style="background: var(--glass); border: 1px solid var(--glass-border); padding: 2rem; border-radius: 12px; font-family: var(--font-mono); font-size: 0.9rem; line-height: 1.8;">
+                <p style="margin-bottom: 1rem; color: #fff;">Because Chickenwing is a powerful security tool, macOS
+                    requires a few steps to run it safely:</p>
                 <ol style="margin-left: 1.5rem; color: var(--muted);">
-                    <li>Download the <strong style="color: #fff;">.dmg</strong> and drag Chickenwing to your Applications folder.</li>
-                    <li>Right-click the app and select <strong style="color: #fff;">Open</strong> (this bypasses Gatekeeper for unsigned builds).</li>
-                    <li>The app will request <strong style="color: #fff;">Admin Privileges</strong> to access the network interface (en0/en1).</li>
+                    <li>Download the <strong style="color: #fff;">.dmg</strong> and drag Chickenwing to your
+                        Applications folder.</li>
+                    <li>Right-click the app and select <strong style="color: #fff;">Open</strong> (this bypasses
+                        Gatekeeper for unsigned builds).</li>
+                    <li>The app will request <strong style="color: #fff;">Admin Privileges</strong> to access the
+                        network interface (en0/en1).</li>
                     <li>Enjoy! No additional dependencies (like Python) are required.</li>
                 </ol>
             </div>
@@ -95,4 +105,5 @@
         });
     </script>
 </body>
+
 </html>
